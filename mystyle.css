@@ -1,0 +1,107 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+h2{
+  font-size:12pt;
+}
+h3{
+  padding-left: 50px;
+}
+
+img
+{
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px 50px 30px 5px;
+  background: #9999ff;
+  padding-bottom: 10px;
+  max-width: 500px;
+  max-height: 450px;
+  margin-left: 50px;
+}
+
+.greybar {
+  background-color:#e6e6e6;
+  font-size: ;
+  font-family: helvetica;
+  display: block;
+  overflow: hidden;
+  width: 100%; /* Full width */
+}
+
+.whitebar {
+  background-color:white;
+  font-size: ;
+  font-family: helvetica;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%; /* Full width */
+
+}
+
+body {
+   height: 100%;
+   padding-top: 100px;
+   padding-left: 0px;
+   font-family: helvetica;
+   width: 100%;
+ }
+
+section {
+   height: 100%;
+   padding-top: 50px;
+}
+
+header {
+    background-color:#4d4d4d;
+    font-size: ;
+    font-family: helvetica;
+    color: white;
+    display: block;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 150px;
+    padding-left: 50px;
+
+
+}
+
+nav {
+    overflow: hidden;
+    background-color:  #66b3ff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 120px; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    box-shadow: 2px 2px 2px #888888;
+
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 10px 10px 10px;
+    text-decoration: underline;
+}
+
+
+}
+footer {
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+p{
+  padding-left: 50px;
+}
+
+
+
+
+/* The navigation bar */
